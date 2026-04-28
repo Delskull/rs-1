@@ -1,14 +1,14 @@
-import React from 'react';
-
+import React from "react";
+import Search from "./components/search"
 class App extends React.Component {
-  render() {
+  render(){
     return (
-      <div>
-        <h1>RSS School React Course</h1>
-        <p>Проект настроен!</p>
+      <div className="flex flex-col justify-center items-center h-64 gap-4">
+        <h1> Top controls</h1>
+
+        <Search/>
       </div>
-    );
+    )
   }
 }
-
-export default App;
+export default App
