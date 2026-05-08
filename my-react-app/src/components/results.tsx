@@ -14,10 +14,11 @@ class Results extends React.Component<resultProps> {
         const {items} = this.props
 
         return (
-            <div className="flex justify-center items-center h-64 gap-4">
+            <div className="flex flex-col justify-center items-center gap-4">
+                Results
                 {items.map((item) => (
-                    <div key={item.id} className="flex gap-4 items-center">
-                        <img src={item.image} alt={item.name} />
+                    <div key={item.id} className="flex gap-24 items-center">
+                        <img className="w-32 h-32 object-cover" src={item.image} alt={item.name} />
                         <h3>{item.name}</h3>
                     </div>
                 ))}
