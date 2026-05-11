@@ -1,4 +1,6 @@
 import React from "react";
+import ErrorBoundary from "./errorBoundry";
+import BugButton from "./BugButton";
 
 interface character {
     id: number
@@ -22,6 +24,7 @@ class Results extends React.Component<resultProps> {
                         <h3>{item.name}</h3>
                     </div>
                 ))}
+                <BugButton/>
             </div>
         )
     }

@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "./components/search"
 import Results from "./components/results";
+import ErrorBoundary from "./components/errorBoundry";
   interface character {
     id: number
     name: string
@@ -42,12 +43,14 @@ class App extends React.Component<{},state> {
         <h1> Top controls</h1>
         <Search onSearch={this.handleSearch}/>
          </div>
+         <ErrorBoundary>
          {this.state.isLoading === true ?
           <div className="flex justify-center">Loading...</div> : 
          <Results items={this.state.results}/>
          }
-        
+        </ErrorBoundary>
       </div>
+      
     )
   }
 }
