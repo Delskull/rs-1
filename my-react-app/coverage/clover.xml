@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1779866169661" clover="3.2.0">
+  <project timestamp="1779866169661" name="All files">
+    <metrics statements="40" coveredstatements="4" conditionals="10" coveredconditionals="2" methods="20" coveredmethods="3" elements="70" coveredelements="9" complexity="0" loc="40" ncloc="40" packages="2" files="7" classes="7"/>
+    <package name="src">
+      <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="App.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\App.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\main.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="29" coveredstatements="4" conditionals="8" coveredconditionals="2" methods="14" coveredmethods="3"/>
+      <file name="BugButton.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\components\BugButton.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="button.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\components\button.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="errorBoundry.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\components\errorBoundry.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="results.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\components\results.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="search.tsx" path="D:\WebstormProjects\rs-1\my-react-app\src\components\search.tsx">
+        <metrics statements="11" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

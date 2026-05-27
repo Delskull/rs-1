@@ -24,7 +24,6 @@ class ErrorBoundary extends React.Component<Props,State> {
   render() {
     if (this.state.hasError) {
       return <div>
-        {this.props.children}
         <h1 className="flex justify-center m-6">Что-то пошло не так.</h1>;
       </div>
       
